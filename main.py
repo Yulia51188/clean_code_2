@@ -92,7 +92,7 @@ if __name__ == '__main__':
     pygame.init()
     os.system('cls||clear')
     pygame.mixer.init(BUFFER)
-    command = os.getenv('komanda', default='По-умолчанию')
+    command = os.getenv('COMMAND', default='По-умолчанию')
     address = 'http://195.161.68.58'
     morse_command = encode_message_to_morse(command, MORSE_ALPHABET)
     establish_connection_to_robot(address)

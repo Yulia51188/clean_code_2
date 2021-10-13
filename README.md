@@ -14,12 +14,12 @@ pip install -r requirements.txt
 
 Interpreted in text last voice command: "Нужен селен". 
 
-- komanda
+- `COMMAND`
 
 .env example:
 
 ```
-komanda=команда
+COMMAND="Нужен селен"
 ```
 
 ## Run
